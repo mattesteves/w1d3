@@ -7,12 +7,12 @@ console.log (withoutSpace)
 
 
 function countLetters(str){
-	for (var i = 0; i < withoutSpace.length; i++) {
-		if (!objo[withoutSpace[i]]){
-			objo[withoutSpace[i]]=[str.indexOf(str[i])]
+	for (var i = 0; i < str.length; i++) {
+		if (!objo[str[i]]){
+			objo[str[i]]=[str.indexOf(str[i])]
 		} else{
 
-			objo[withoutSpace[i]].push(i);
+			objo[str[i]].push(i);
 		}
 	}
 	return objo
