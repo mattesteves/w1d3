@@ -18,37 +18,3 @@ function countLetters(str){
 }
 
 console.log (countLetters(withoutSpace))
-
-// function initOb (key){
-// 	var arr = getLetters(key);
-// 	console.log(arr.length)
-// 	for (var i = 0; i < arr.length; i++) {
-// 		objo[arr[i]]= 1;
-// 	}
-// 	return objo
-// }
-
-// function count(val){
-// 	var result= initOb(withoutSpace)
-// 	for (var i = 0; i < result.length; i++) {
-// 	 if result
-// 	}
-// }
-
-// console.log(getLetters(withoutSpace));
-// console.log(initOb(withoutSpace))
-
-
-// // function getNumbers(word){
-// // 	var numArr= [];
-// // 	for(var x=0; x< word.length; x++){
-// // 		if (numArr[x] !== NaN){
-// // 			numArr.push(1)
-// // 		} 
-// // 		if (word[x] !==  " "){
-// // 		numArr.push(x)+=1}
-// // 	}
-// // 	return NumArr
-// // }
-
-// // console.log(getNumbers(str))
